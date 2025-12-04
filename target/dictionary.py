@@ -1,3 +1,4 @@
+# test = {} # this will create empty disctionary/json object
 # studentDetails = {
 #     "marks": {
 #         "Parth": 75,

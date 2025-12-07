@@ -20,8 +20,8 @@ class Number:
     def __str__(self):
         return str(self.num)
 
-n1 = Number(10)
-n2 = Number(20)
+n1 = Number(10.52)
+n2 = Number(20.25)
 n3 = Number(10)
 n4 = Number(100)
 result = (((n1 + n2) - n3) * n2) / n4

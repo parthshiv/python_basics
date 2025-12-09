@@ -38,5 +38,4 @@ git clone https://github.com/parthshiv/python_basics.git
 
 python {filename}.py
 
-## 📁 Example Folder Structure
 

@@ -1,4 +1,4 @@
-from functools import reduce
+from functools import reduce #to use reduce, we must first import it from functool module
 
 def add(x,y):
     return x + y

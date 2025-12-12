@@ -1,3 +1,15 @@
+"""
+This is in-memory caching with dynamic contents.
+
+In-memory cache (dashboard example):
+------------------------------------
+Storage: Python dictionary in memory.
+Data source: Dynamic database records.
+Cache invalidation trigger: Database changes (e.g., max(updated_at) or record count).
+Scope: Only valid within the current Python process.
+Use case: Fast caching of dynamic content.
+
+"""
 from datetime import datetime, timedelta
 import time
 

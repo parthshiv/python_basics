@@ -1,5 +1,13 @@
 """
-this program called for file-based or in-memory based caching
+This program called for file-based caching because we'll compare the last modification time of the file.
+
+File-based cache:
+-----------------
+Storage: Python dictionary in memory (or could also write to file if you want).
+Data source: Static template file (homepage.html).
+Cache invalidation trigger: File modification time (mtime).
+Scope: Only valid within the current Python process.
+Use case: Avoid re-reading / re-rendering static files.
 """
 
 import os

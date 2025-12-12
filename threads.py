@@ -1,5 +1,5 @@
 """
-Thread are called as Blocking I/O but runs concurrently.
+Thread are called as Blocking-I/O-bound but runs concurrently.
 example: You hire 5 people, each downloads one image at the same time. Each person still “waits” for 3 seconds, but all run concurrently. Multiple workers, each waiting for their task
 Pros: good for Small number of tasks
 Cons: Memory-heavy; Extra Memory uses

@@ -1,3 +1,7 @@
+"""
+function caching means its used to cache the output of a function for repeating inputs
+"""
+
 from functools import lru_cache
 import time
 

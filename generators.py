@@ -11,4 +11,4 @@ for num in squares(100):
 for i in range(100):
         print(i**2)
 
-# generators are 'lazy'  in python. So its use is good to save memory. For loops are saving memory when iterations are more.       
+# generators are 'lazy' in python. So its use is good to save memory. For loops are saving memory when iterations are more.       
